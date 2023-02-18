@@ -4,9 +4,9 @@ class rectangle:
         self.b = b
 
     def perimeter(self):
-        p = 2 * (self.l + self.b)
-        print('perimeter = ', p)
+        self.perimeter = 2 * (self.l + self.b)
+        print ('perimeter = ', self.perimeter)
 
     def area(self):
-        a = self.l * self.b
-        print('area =', a)
+        self.area = self.l * self.b
+        print ('area =', self.area)
